@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Referral</title>
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BW0J61J3MV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-BW0J61J3MV');
+    </script>
+</head>
+<body>
+<div class="container">
+    <form>
+        <img src="assets/template.png">
+        <div class="form-group sell-buy">
+            <select class="form-control form-select" name="sell-buy" id="sell-buy">
+                <option selected value="Short">Short</option>
+                <option value="Long">Long</option>
+            </select>
+        </div>
+        <div class="form-group background">
+            <label for="background">Background</label>
+            <select class="form-control form-select" name="background" id="background">
+                <option selected value="1">Standard</option>
+                <option value="2">Custom</option>
+            </select>
+        </div>
+        <div class="form-group xxx">
+            <select class="form-control form-select" name="xxx" id="xxx">
+                <option value="20x">20x</option>
+                <option selected value="25x">25x</option>
+                <option value="30x">30x</option>
+                <option value="35x">35x</option>
+                <option value="40x">40x</option>
+                <option value="45x">45x</option>
+                <option value="50x">50x</option>
+                <option value="55x">55x</option>
+                <option value="60x">60x</option>
+                <option value="65x">65x</option>
+                <option value="70x">70x</option>
+                <option value="75x">75x</option>
+                <option value="80x">80x</option>
+                <option value="85x">85x</option>
+                <option value="90x">90x</option>
+                <option value="95x">95x</option>
+                <option value="100x">100x</option>
+                <option value="105x">105x</option>
+                <option value="110x">110x</option>
+                <option value="115x">115x</option>
+                <option value="120x">120x</option>
+                <option value="125x">125x</option>
+            </select>
+        </div>
+        <div class="form-group coin">
+            <input class="form-control form-control-lg sell" type="text" id="coin" name="coin">
+        </div>
+        <div class="form-group percent">
+            <input class="form-control form-control-lg sell" type="text" id="percent" name="percent">
+        </div>
+        <div class="form-group entry">
+            <input class="form-control form-control-lg sell" type="text" id="entry" name="entry">
+        </div>
+        <div class="form-group exit">
+            <input class="form-control form-control-lg sell" type="text" id="exit" name="exit">
+        </div>
+        <div class="form-group referral">
+            <select class="form-control form-select" name="referral" id="referral">
+                <option selected value="Мальцев">Мальцев</option>
+                <option value="Доронин">Доронин</option>
+                <option value="Шевченко">Шевченко</option>
+                <option value="Александр(Санта)">Александр(Санта)</option>
+                <option value="Брагин">Брагин</option>
+                <option value="Беспалов">Беспалов</option>
+                <option value="Диденко">Диденко</option>
+                <option value="Клиент1">Клиент 1</option>
+                <option value="Клиент2">Клиент 2</option>
+                <option value="Клиент3">Клиент 3</option>
+                <option value="Клиент4">Клиент 4</option>
+                <option value="Клиент5">Клиент 5</option>
+                <option value="Клиент6">Клиент 6</option>
+            </select>
+        </div>
+
+        <div class="switch form-group">
+            <a class="switch" href="https://srprsmzfk.github.io/futures-referal-template/">Switch to Russian</a>
+        </div>
+    </form>
+    <button class="btn btn-primary btn-lg" type="button">Generate</button>
+</div>
+</body>
+<script src="./script.js"></script>
+</html>

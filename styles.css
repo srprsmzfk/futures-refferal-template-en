@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&family=IBM+Plex+Sans:wght@100;400;600;700&display=swap');
+
+@font-face {
+    font-family: 'BinanceMedium' ;
+    src: url('./fonts/BinanceMedium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'BinanceRegular' ;
+    src: url('./fonts/BinanceRegular.woff2') format('woff2');
+}
+
+body {
+    background-color: #1a1a1a !important;
+    padding: 0;
+    margin: 0;
+}
+.font-hack {
+    height: 0;
+}
+
+.font-hack {
+    height: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    position: relative;
+    font-family: 'BinanceMedium', Arial, sans-serif;
+    border: 1px solid #fcb202;
+}
+
+img {
+    width: 100%;
+}
+
+input {
+    height: 100% !important;
+    font-size: inherit;
+}
+
+button {
+    outline: none !important;
+}
+
+.btn {
+    margin-top: 20px;
+    height: 70px;
+    width: 100%;
+    background-color: #2d2c2c !important;
+    font-family: 'BinanceRegular', Arial, sans-serif;
+    border-color: #fcb202 !important;
+    font-size: 25px !important;
+    color: #fcb202;
+}
+
+select {
+    height: 100% !important;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+.form-group {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sell-buy {
+    top: 30%;
+    left: 8%;
+    width: 12%;
+}
+
+.background {
+    top: 5%;
+    left: 83%;
+    width: 12%;
+}
+
+.background label {
+    color: white;
+}
+
+.xxx {
+    top: 30%;
+    left: 26%;
+    width: 7%;
+}
+
+.coin {
+    top: 30%;
+    left: 38%;
+    width: 12%;
+}
+
+.percent {
+    top: 42%;
+    left: 14%;
+    width: 26%;
+    height: 8%;
+    font-size: 150%;
+}
+
+.entry {
+    top: 54%;
+    left: 35%;
+    width: 19%;
+}
+
+.exit {
+    top: 60%;
+    left: 35%;
+    width: 19%;
+}
+
+.referral {
+    top: 79%;
+    left: 24%;
+    width: 12%;
+}
+
+.switch {
+    color: white;
+    top: 92%;
+    left: 86%;
+}
+
+.switch a:hover {
+    color: #0ecb81;
+}
